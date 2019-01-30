@@ -19,7 +19,3 @@ Document Index:
 
 ## Installed Software
 
-
-## Runnin flask
-
-
