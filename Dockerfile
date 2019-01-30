@@ -2,12 +2,7 @@ FROM ubuntu:18.04
 LABEL maintainer="Matthias Leuffen <m@tth.es>"
 
 ADD / /kickstart
-RUN chmod -R 755 /kickstart
-
-RUN env
-RUN /kickstart/flavorkit/template/base-install-ubuntu.sh
-RUN /kickstart/flavorkit/scripts/build.sh
-RUN /kickstart/flavor/flavor-build.sh
+RUN chmod -R 755 /kickstart && env && /kickstart/flavorkit/template/base-install-ubuntu.sh && /kickstart/flavorkit/scripts/build.sh && /kickstart/flavor/flavor-build.sh && rm -R /var/lib/apt/lists
 
 
 ENV TIMEZONE Europe/Berlin
