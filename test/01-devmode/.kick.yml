@@ -3,3 +3,6 @@
 version: 1
 from: "infracamp/kickstart-flavor-base:testing"
 
+env:
+  VIRTUAL_ENV: "/abc/$PATH"
+  PATH: "/some/path:$PATH"
