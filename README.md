@@ -4,7 +4,7 @@
 [<img src="https://api.travis-ci.org/infracamp/kickstart-flavor-base.svg?branch=master">](https://travis-ci.org/infracamp/kickstart-flavor-base)
 [![Latest Stable Version](https://img.shields.io/github/release/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base/releases)
 [![Docker Pulls](https://img.shields.io/docker/pulls/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base)
-[![Docker Pulls](https://img.shields.io/docker/cloud/build/infracamp/kickstart-flavor-base.svg)](https://cloud.docker.com/repository/docker/infracamp/kickstart-flavor-base/builds)
+[![Docker Build status](https://img.shields.io/docker/cloud/build/infracamp/kickstart-flavor-base.svg)](https://cloud.docker.com/repository/docker/infracamp/kickstart-flavor-base/builds)
 [![See Website](https://img.shields.io/badge/info-website-blue.svg)](http://infracamp.org/container)
 
 see (http://github.com/infracamp/kickstart) for more information.
@@ -19,6 +19,28 @@ Document Index:
     - [Build details](https://hub.docker.com/r/infracamp/kickstart-flavor-base/builds/)
 
 
+
+## Containers build on top of this container
+
+- [kickstart-flavor-jekyll](https://github.com/infracamp/kickstart-flavor-jekyll)
+
+
+## About this container
+
+### Default software
+
+| Value            | Usage              | Docker-File ENV |
+|------------------|--------------------|-----------------|
+| Default-Encoding | UTF-8 (US)         |                 |
+| Timezone         | Europe/Berlin      | `TIMEZONE=`     |
+| Default-Editor   | vim                |                 |
+
+### Usage
+
+* **git**: Your git credentials and git-config is the same as your hosts
+* **history**: Histroy is shared accross instances
+* **bash completion**: Active by default
+* **vim**: Editor for all questions
 
 ## Extending this container
 
