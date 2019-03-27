@@ -11,14 +11,6 @@ Document Index:
     - [Build details](https://hub.docker.com/r/infracamp/kickstart-flavor-base/builds/)
 
 
-## Container specific `.kick.yml`-directives
-
-| Key | Default | Description |
-|----------------|----------------|---------------------|
-|
-
-## Installed Software
-
 
 ## Extending this container
 
@@ -29,7 +21,17 @@ FROM infracamp/kickstart-flavor-base:testing
 LABEL maintainer="Matthias Leuffen <m@tth.es>"
 
 ADD / /kickstart
+RUN chmod -R 755 /kickstart && /kickstart/flavor/flavor-build.sh
+```
 
-RUN chmod -R 755 /kickstart && /kickstart/flavor/flavor-build.sh && rm -R /var/lib/apt/lists
+Your project should look like
 
+```
+Dockerfile
+flavor/
+    flavor-build.sh
+    prepare.start.d/
+        01-prepare-whatever.sh
+    start.d/
+        01-start-whatever.sh
 ```

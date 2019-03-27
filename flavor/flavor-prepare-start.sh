@@ -2,8 +2,8 @@
 
 ## This script is executed when the container starts up
 
-for file in /kickstart/flavor/prepare.start.d/*
+for file in /kickstart/flavor/prepare.start.d/*.sh
 do
-    echo "Executing file /kickstart/flavor/prepare.start.d/$file"
-    . /kickstart/flavor/prepare.start.d/$file
+    echo "Executing file $file"
+    . $file
 done
