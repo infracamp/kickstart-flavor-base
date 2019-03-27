@@ -4,10 +4,8 @@ services:
   - docker
 
 before_install:
-
-
 install:
 
 script:
-- ./build-dev.sh
+- cd test/01-devmode && ./kickstart.sh :test
 - curl -X POST --data "" $DAILY_DOCKERHUB_PULL_URL

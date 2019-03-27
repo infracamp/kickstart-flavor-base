@@ -6,3 +6,8 @@ from: "infracamp/kickstart-flavor-base:testing"
 env:
   VIRTUAL_ENV: "/abc/$PATH"
   PATH: "/some/path:$PATH"
+
+
+command:
+  test:
+    - bash selfcheck.sh

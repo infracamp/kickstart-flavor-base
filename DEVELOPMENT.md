@@ -10,6 +10,13 @@ Do this before you push things. dockerhub will pull exacly the same
 submodules version you have in this repository.
 
 
+## Build & start the image locally
+
+go to `test/01-devmode` and execute `./kickstart.sh`
+
+It will build and run the image.
+
+
 ## Dockerhub integration
 
 - The docker-service must be added to group-repository by hand
