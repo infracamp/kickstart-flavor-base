@@ -24,7 +24,7 @@ It will build and run the image.
   
 In docker there should be following build-settings:
 
-| Type | Name | Dockerfile Location | Docker Tag name |
+| Type   | Name          | Dockerfile Location | Docker Tag name |
 |--------|---------------|---------------------|-----------------|
 | Branch | master        | /                   | testing         |
 | Tag    | `/^[0-9.]+$/` | /                   | latest          |

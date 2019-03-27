@@ -7,9 +7,8 @@ before_install:
 install:
 
 script:
-- cd sec_check/ && ./dump_sec_updates.sh
-- cd ..
+- cd sec_check/dump_sec_updates.sh
 - git add . && git commit -m "autocommit sec updates" && git push
-- cd test/01-devmode && ./kickstart.sh :test :dump-security-updates
+- cd test/01-devmode && ./kickstart.sh :test
 - curl -X POST --data "" $DAILY_DOCKERHUB_PULL_URL
 
