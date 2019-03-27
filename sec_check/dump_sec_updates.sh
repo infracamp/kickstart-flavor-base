@@ -6,7 +6,7 @@ SCRIPTPATH=`dirname $SCRIPT`
 
 
 IMAGE=kickstart-flavor-base
-REVS=( testing latest release-1.2.8 release-1.2.6 )
+REVS=( testing latest 1.2.9 release-1.2.8 release-1.2.6 )
 
 JSON_OUT="{\"last_update\": \"$(date --iso-8601=seconds)\",\"image\": \"$IMAGE\"";
 
