@@ -1,7 +1,15 @@
 
-# kickstart-flavor base :: Base development container
+# kickstart-flavor-base :: Base development container
+
+[<img src="https://api.travis-ci.org/infracamp/kickstart-flavor-base.svg?branch=master">](https://travis-ci.org/infracamp/kickstart-flavor-base)
+[![Latest Stable Version](https://img.shields.io/github/release/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base/releases)
+[![Docker Pulls](https://img.shields.io/docker/pulls/infracamp/kickstart-flavor-base.svg)](https://github.com/infracamp/kickstart-flavor-base)
+[![Docker Pulls](https://img.shields.io/docker/cloud/build/infracamp/kickstart-flavor-base.svg)](https://cloud.docker.com/repository/docker/infracamp/kickstart-flavor-base/builds)
+[![See Website](https://img.shields.io/badge/info-website-blue.svg)](http://infracamp.org/container)
 
 see (http://github.com/infracamp/kickstart) for more information.
+
+**This image is the base for many easy extensible containers**
 
 Document Index:
 
