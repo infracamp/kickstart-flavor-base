@@ -1,0 +1,15 @@
+language: php
+
+services:
+  - docker
+
+before_install:
+
+
+install:
+- apt-get -y install curl
+
+
+script:
+- ./build-dev.sh
+- curl -X POST --data "" $DAILY_DOCKERHUB_PULL_URL
