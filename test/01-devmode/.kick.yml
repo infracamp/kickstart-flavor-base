@@ -10,4 +10,4 @@ env:
 
 command:
   test:
-    - bash selfcheck.sh
+    - bash test/selfcheck.sh

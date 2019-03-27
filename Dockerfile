@@ -15,6 +15,9 @@ ENV DEV_TTYID "xXx"
 
 ENV CONF_DUMMY_VALUE "TEST CONFIG VALUE"
 
+# Set from hub.docker.com
+ENV IMAGE_NAME "${IMAGE_NAME}"
+
 # Use for debugging:
 #ENTRYPOINT ["/bin/bash"]
 
