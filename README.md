@@ -27,6 +27,12 @@ Document Index:
 
 ## About this container
 
+### Security Status
+
+The containers software is checked for security updates twice a day.
+
+You can trigger notifications loading our [security.json](https://raw.githubusercontent.com/infracamp/kickstart-flavor-base/master/sec_check/security.json).
+
 ### Default software
 
 | Value            | Usage              | Docker-File ENV |

@@ -16,7 +16,7 @@ do
 
     SECFILE=$SCRIPTPATH/sec-$IMAGE\:$rev.txt
 
-    docker run -it --entrypoint "/bin/bash"  infracamp/$IMAGE:$rev -c 'apt-get -qq update && apt-get upgrade -s | grep -i security' > $SECFILE
+    docker run -it --entrypoint "/bin/bash"  infracamp/$IMAGE:$rev -c 'apt-get -qq update && apt-get upgrade -s | grep -i security | grep -i inst' > $SECFILE
 
     if [[ `cat $SECFILE | wc -l` = 0 ]]
     then
