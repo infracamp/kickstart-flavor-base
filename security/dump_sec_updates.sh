@@ -14,7 +14,7 @@ for rev in "${REVS[@]}"
 do
     echo -n "- checking security for $IMAGE:$rev.. "
 
-    SECFILE=$SCRIPTPATH/sec-$IMAGE\:$rev.txt
+    SECFILE=$SCRIPTPATH/vul/$IMAGE-$rev.txt
 
     docker run -it --entrypoint "/bin/bash"  infracamp/$IMAGE:$rev -c 'apt-get -qq update && apt-get upgrade -s | grep -i security | grep -i inst' > $SECFILE
 
