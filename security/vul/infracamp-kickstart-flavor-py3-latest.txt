@@ -1,6 +1,3 @@
-Inst file [1:5.32-2ubuntu0.1] (1:5.32-2ubuntu0.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
-Inst libmagic1 [1:5.32-2ubuntu0.1] (1:5.32-2ubuntu0.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
-Inst libmagic-mgc [1:5.32-2ubuntu0.1] (1:5.32-2ubuntu0.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
 Inst php7.2-readline [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
 Inst php7.2-opcache [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
 Inst php7.2-json [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []

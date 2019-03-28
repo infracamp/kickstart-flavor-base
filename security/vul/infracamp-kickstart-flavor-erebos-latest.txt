@@ -1,0 +1,32 @@
+Inst gpg-wks-client [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gnupg:amd64 ]
+Inst dirmngr [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gnupg:amd64 ]
+Inst gpg [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gpg-wks-server:amd64 gnupg:amd64 ]
+Inst gnupg-utils [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gpg-wks-server:amd64 gnupg:amd64 ]
+Inst gnupg-l10n [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [all]) [gpg-wks-server:amd64 gnupg:amd64 ]
+Inst gpg-agent [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gpg-wks-server:amd64 gnupg:amd64 ]
+Inst gpgsm [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gpg-wks-server:amd64 gnupg:amd64 ]
+Inst gpgconf [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gpg-wks-server:amd64 gnupg:amd64 ]
+Inst gnupg [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) [gpg-wks-server:amd64 ]
+Inst gpg-wks-server [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst gpgv [2.2.4-1ubuntu1.1] (2.2.4-1ubuntu1.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst file [1:5.32-2ubuntu0.1] (1:5.32-2ubuntu0.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst libmagic1 [1:5.32-2ubuntu0.1] (1:5.32-2ubuntu0.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst libmagic-mgc [1:5.32-2ubuntu0.1] (1:5.32-2ubuntu0.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst tzdata [2018g-0ubuntu0.18.04] (2018i-0ubuntu0.18.04 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [all])
+Inst krb5-locales [1.16-2build1] (1.16-2ubuntu0.1 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [all])
+Inst libgssapi-krb5-2 [1.16-2build1] (1.16-2ubuntu0.1 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst libkrb5-3 [1.16-2build1] (1.16-2ubuntu0.1 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst libkrb5support0 [1.16-2build1] (1.16-2ubuntu0.1 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst libk5crypto3 [1.16-2build1] (1.16-2ubuntu0.1 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst libssl1.0-dev [1.0.2n-1ubuntu5.2] (1.0.2n-1ubuntu5.3 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst libssl1.0.0 [1.0.2n-1ubuntu5.2] (1.0.2n-1ubuntu5.3 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst openssh-client [1:7.6p1-4ubuntu0.1] (1:7.6p1-4ubuntu0.3 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst curl [7.58.0-2ubuntu3.5] (7.58.0-2ubuntu3.6 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst libcurl4 [7.58.0-2ubuntu3.5] (7.58.0-2ubuntu3.6 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst libcurl3-gnutls [7.58.0-2ubuntu3.5] (7.58.0-2ubuntu3.6 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst linux-libc-dev [4.15.0-42.45] (4.15.0-46.49 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst php7.2-readline [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst php7.2-opcache [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst php7.2-json [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst php7.2-cli [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
+Inst php7.2-common [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])

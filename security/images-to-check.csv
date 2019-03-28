@@ -1,0 +1,16 @@
+infracamp/kickstart-flavor-base:latest
+infracamp/kickstart-flavor-base:testing
+infracamp/kickstart-flavor-base:1.2.9
+infracamp/kickstart-flavor-base:release-1.2.8
+
+infracamp/kickstart-flavor-gaia:latest
+infracamp/kickstart-flavor-gaia:testing
+
+infracamp/kickstart-flavor-py3:latest
+infracamp/kickstart-flavor-py3:testing
+
+infracamp/kickstart-flavor-jekyll:latest
+infracamp/kickstart-flavor-jekyll:testing
+
+infracamp/kickstart-flavor-erebos:latest
+infracamp/kickstart-flavor-erebos:testing

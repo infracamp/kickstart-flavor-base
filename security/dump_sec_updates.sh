@@ -5,18 +5,21 @@ SCRIPT=`realpath $0`
 SCRIPTPATH=`dirname $SCRIPT`
 
 
-IMAGE=kickstart-flavor-base
+IMAGES=( $( cat $SCRIPTPATH/images-to-check.csv ) )
 REVS=( testing latest 1.2.9 release-1.2.8 release-1.2.6 )
 
-JSON_OUT="{\"last_update\": \"$(date --iso-8601=seconds)\",\"image\": \"$IMAGE\"";
+JSON_OUT="{\"_last_update\": \"$(date --iso-8601=seconds)\"";
 
-for rev in "${REVS[@]}"
+for image in "${IMAGES[@]}"
 do
-    echo -n "- checking security for $IMAGE:$rev.. "
+    echo -n "- checking security for $image.. "
 
-    SECFILE=$SCRIPTPATH/vul/$IMAGE-$rev.txt
 
-    docker run -it --entrypoint "/bin/bash"  infracamp/$IMAGE:$rev -c 'apt-get -qq update && apt-get upgrade -s | grep -i security | grep -i inst' > $SECFILE
+
+    SECFILE=$SCRIPTPATH/vul/${image//[\:\-\/]/-}.txt
+
+    docker pull $image > /dev/null
+    docker run -it --rm --entrypoint "/bin/bash" $image -c 'apt-get -qq update && apt-get upgrade -s | grep -i security | grep -i inst' > $SECFILE
 
     if [[ `cat $SECFILE | wc -l` = 0 ]]
     then
@@ -28,7 +31,8 @@ do
         state="insecure"
     fi
 
-    JSON_OUT="$JSON_OUT, \"$rev\":\"$state\""
+
+    JSON_OUT="$JSON_OUT, \"$image\":\"$state\""
 
 done
 
