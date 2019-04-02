@@ -5,7 +5,7 @@ LABEL   maintainer="Matthias Leuffen <m@tth.es>" \
         org.infracamp.flavor.vulnerable_check_url="https://github.com/infracamp/kickstart-flavor-base/blob/master/security/vul/kickstart-flavor-base-release-${DOCKER_TAG}.txt"
 
 ADD / /kickstart
-RUN chmod -R 755 /kickstart && env && /kickstart/flavorkit/template/base-install-ubuntu.sh && /kickstart/flavorkit/scripts/build.sh && /kickstart/flavor/flavor-build.sh && rm -R /var/lib/apt/lists
+RUN chmod -R 755 /kickstart && env && /kickstart/flavorkit/template/base-install-ubuntu.sh && /kickstart/flavorkit/scripts/build.sh && /kickstart/flavor/flavor-build.sh
 
 
 ENV TIMEZONE Europe/Berlin
