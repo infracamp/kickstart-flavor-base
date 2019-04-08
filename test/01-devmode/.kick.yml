@@ -7,8 +7,6 @@ env:
   VIRTUAL_ENV: "/abc/$PATH"
   PATH: "/some/path:$PATH"
 
-++vav=2z
-
 command:
   test:
     - bash test/selfcheck.sh
