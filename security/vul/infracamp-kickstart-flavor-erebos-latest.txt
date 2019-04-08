@@ -24,7 +24,7 @@ Inst openssh-client [1:7.6p1-4ubuntu0.1] (1:7.6p1-4ubuntu0.3 Ubuntu:18.04/bionic
 Inst curl [7.58.0-2ubuntu3.5] (7.58.0-2ubuntu3.6 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
 Inst libcurl4 [7.58.0-2ubuntu3.5] (7.58.0-2ubuntu3.6 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
 Inst libcurl3-gnutls [7.58.0-2ubuntu3.5] (7.58.0-2ubuntu3.6 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
-Inst linux-libc-dev [4.15.0-42.45] (4.15.0-46.49 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
+Inst linux-libc-dev [4.15.0-42.45] (4.15.0-47.50 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
 Inst php7.2-readline [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
 Inst php7.2-opcache [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
 Inst php7.2-json [7.2.10-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
