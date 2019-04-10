@@ -1,6 +1,0 @@
-Inst linux-libc-dev [4.15.0-46.49] (4.15.0-47.50 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
-Inst php7.2-readline [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
-Inst php7.2-opcache [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
-Inst php7.2-json [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
-Inst php7.2-cli [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64]) []
-Inst php7.2-common [7.2.15-0ubuntu0.18.04.1] (7.2.15-0ubuntu0.18.04.2 Ubuntu:18.04/bionic-updates, Ubuntu:18.04/bionic-security [amd64])
