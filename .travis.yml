@@ -11,4 +11,4 @@ script:
 #- git add . && git commit -m "autocommit sec updates" && git push
 - cd test/01-devmode && ./kickstart.sh :test
 - curl -X POST --data "" $DAILY_DOCKERHUB_PULL_URL
-
+- curl -X POST --data "" $DAILY_DOCKERHUB_PULL_URL_AMR32
