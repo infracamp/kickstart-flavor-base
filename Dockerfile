@@ -9,7 +9,7 @@ RUN chmod -R 755 /kickstart && env && /kickstart/flavorkit/template/base-install
 
 
 ENV TIMEZONE Europe/Berlin
-ENV KICKSTART_HYPERVISE_HOST="http://kickstart-hypervise/"
+ENV SYSLOG_HOST ""
 
 ENV DEV_MODE "0"
 ENV DEV_CONTAINER_NAME "unnamed"
