@@ -21,5 +21,4 @@ jobs:
       run: cd test/01-devmode && ./kickstart.sh :test
 
     - name: Trigger build script
-      run:
-        - "curl -X POST --data '{\"docker_tag\": \"latest\"}' $DAILY_DOCKERHUB_PULL_URL"
+      run: "curl -X POST --data '{\"docker_tag\": \"latest\"}' $DAILY_DOCKERHUB_PULL_URL"
