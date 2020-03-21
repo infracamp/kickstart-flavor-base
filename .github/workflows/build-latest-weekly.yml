@@ -5,7 +5,8 @@ name: build-latest-weekly
 on:
   schedule:
       # * is a special character in YAML so you have to quote this string
-      - cron:  '0 3 3 * *'
+      # Run only 14. of Month at 20:00
+      - cron:  '0 20 14 * *'
 
 jobs:
   build:
