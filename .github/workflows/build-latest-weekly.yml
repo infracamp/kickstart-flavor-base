@@ -5,7 +5,8 @@ name: build-latest-weekly
 on:
   schedule:
       # * is a special character in YAML so you have to quote this string
-      - cron:  '0 3 3 * *'
+      # Run only 21. of Month at 20:00
+      - cron:  '0 20 21 * *'
 
 jobs:
   build:
@@ -21,5 +22,4 @@ jobs:
       run: cd test/01-devmode && ./kickstart.sh :test
 
     - name: Trigger build script
-      run:
-        - "curl -X POST --data '{\"docker_tag\": \"latest\"}' $DAILY_DOCKERHUB_PULL_URL"
+      run: "curl -X POST --data '{\"docker_tag\": \"latest\"}' ${{ secrets.DAILY_DOCKERHUB_PULL_URL }}"
