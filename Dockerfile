@@ -26,3 +26,4 @@ ENV IMAGE_NAME "${IMAGE_NAME}"
 
 
 ENTRYPOINT ["/kickstart/flavorkit/scripts/start.sh"]
+
