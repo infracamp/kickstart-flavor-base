@@ -6,6 +6,7 @@
 [![Docker Build status](https://img.shields.io/docker/cloud/build/infracamp/kickstart-flavor-base.svg)](https://cloud.docker.com/repository/docker/infracamp/kickstart-flavor-base/builds)
 [![See Website](https://img.shields.io/badge/info-website-blue.svg)](http://infracamp.org/container)
 
+
 see (http://github.com/infracamp/kickstart) for more information.
 
 **This image is the base for many easy extensible containers**
